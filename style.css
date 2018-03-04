@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: flex-end; 
+}
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.photos {
+    justify-content:center;
+    align-content: center;
+}
+.photos > img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+.cards {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.element {
+    width: 200px;
+    border: 1px solid red;
+    padding: 5px;
+    margin: 2px;
+}
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+        
+}
+
+.foot {
+    border: 1px solid black;
+}
