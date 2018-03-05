@@ -1,6 +1,16 @@
 .container {
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
+}
+.header_links {
+    display: inline-flex;
+    list-style-type: none;
+}
+.header_links > li > a{
+    margin: 5px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    
 }
 .jumbotron {
     display: flex;
@@ -8,17 +18,17 @@
     justify-content: center;
 }
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
+    display:flex;
+    margin: 5px 10px;
 }
 .photos {
-    justify-content:center;
-    align-content: center;
-}
+    display: flex;
+    flex-wrap:wrap;
+    }
 .photos > img {
     width: 400px;
     height: 400px;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 .cards {
     display: flex;
