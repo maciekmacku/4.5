@@ -36,12 +36,19 @@
     flex-wrap: wrap;
     align-items:center;
 }
+
 .element {
     width: 200px;
+    height: 150px;
     border: 1px solid red;
     padding: 5px;
     margin: 2px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;    
+
 }
+
 .footer {
     display: flex;
     align-content: center;
